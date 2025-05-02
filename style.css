@@ -1,0 +1,52 @@
+body{
+    background-color:azure;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    margin: 200px auto 0;
+    font-size: 30px;
+}
+.btn-start {
+    width: 90px; 
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    
+}
+.btn-stop{
+    width:80px;
+    height: auto;
+}
+.btn-reset{
+    height: auto;
+    width:80px;
+}
+.btn-start:hover {
+    transform: scale(1.2);
+    opacity: 0.85;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-stop:hover {
+    transform: scale(1.13);
+    opacity: 0.85;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+.btn-reset:hover {
+    transform: scale(1.13);
+    opacity: 0.85;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
